@@ -6,7 +6,7 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.Particle;
 import org.bukkit.Sound;
 
-import your.package.weapons.LegendaryWeapon;
+import me.ogsharpness.plugin.weapons.LegendaryWeapon;
 
 public class LightningSword extends LegendaryWeapon {
 

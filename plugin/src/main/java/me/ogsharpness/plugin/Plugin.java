@@ -1,10 +1,10 @@
-package your.package;
+package me.ogsharpness.plugin;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import your.package.listeners.InteractListener;
-import your.package.weapons.WeaponManager;
-import your.package.utils.CooldownManager;
-import your.package.commands.GiveWeaponCommand;
+import me.ogsharpness.plugin.listeners.InteractListener ;
+import me.ogsharpness.plugin.weapons.WeaponManager;
+import me.ogsharpness.plugin.utils.CooldownManager;
+import me.ogsharpness.plugin.commands.GiveWeaponCommand;
 
 public class LegendaryWeaponsPlugin extends JavaPlugin {
 

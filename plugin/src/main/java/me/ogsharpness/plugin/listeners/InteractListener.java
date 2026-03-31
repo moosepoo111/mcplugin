@@ -6,8 +6,8 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-import your.package.weapons.*;
-import your.package.utils.CooldownManager;
+import me.ogsharpness.plugin.weapons.*;
+import me.ogsharpness.plugin.utils.CooldownManager;
 
 public class InteractListener implements Listener {
 

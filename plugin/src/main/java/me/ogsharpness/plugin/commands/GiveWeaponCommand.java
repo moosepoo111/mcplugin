@@ -7,7 +7,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.Material;
 import org.bukkit.persistence.PersistentDataType;
 
-import your.package.weapons.WeaponManager;
+import me.ogsharpness.plugin.weapons.WeaponManager;
 
 public class GiveWeaponCommand implements CommandExecutor {
 

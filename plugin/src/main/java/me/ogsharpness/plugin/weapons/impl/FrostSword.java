@@ -5,7 +5,7 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
-import your.package.weapons.LegendaryWeapon;
+import me.ogsharpness.plugin.weapons.LegendaryWeapon;
 
 public class FrostSword extends LegendaryWeapon {
 

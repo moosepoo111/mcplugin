@@ -4,7 +4,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.NamespacedKey;
-import your.package.LegendaryWeaponsPlugin;
+import me.ogsharpness.plugin.LegendaryWeaponsPlugin;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,8 +17,8 @@ public class WeaponManager {
     public WeaponManager(LegendaryWeaponsPlugin plugin) {
         this.key = new NamespacedKey(plugin, "weapon_id");
 
-        registerWeapon(new your.package.weapons.impl.LightningSword());
-        registerWeapon(new your.package.weapons.impl.FrostSword());
+        registerWeapon(new me.ogsharpness.plugin.weapons.impl.LightningSword());
+        registerWeapon(new me.ogsharpness.plugin.weapons.impl.FrostSword());
     }
 
     public void registerWeapon(LegendaryWeapon weapon) {
