@@ -1,0 +1,8 @@
+me\ogsharpness\plugin\weapons\WeaponManager.class
+me\ogsharpness\plugin\utils\CooldownManager.class
+me\ogsharpness\plugin\weapons\impl\LightningSword.class
+me\ogsharpness\plugin\listeners\InteractListener.class
+me\ogsharpness\plugin\LegendaryWeaponsPlugin.class
+me\ogsharpness\plugin\weapons\LegendaryWeapon.class
+me\ogsharpness\plugin\commands\GiveWeaponCommand.class
+me\ogsharpness\plugin\weapons\impl\FrostSword.class

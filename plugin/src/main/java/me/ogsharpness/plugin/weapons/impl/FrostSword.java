@@ -15,8 +15,10 @@ public class FrostSword extends LegendaryWeapon {
 
     public void onRightClick(Player player, PlayerInteractEvent event) {
         player.getNearbyEntities(5,5,5).forEach(e -> {
-            if (e instanceof org.bukkit.entity.LivingEntity target) {
-                target.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 100, 2));
+            if (e instanceof org.bukkit.entity.LivingEntity) {
+                org.bukkit.entity.LivingEntity target = (org.bukkit.entity.LivingEntity) e;
+
+                target.addPotionEffect(new PotionEffect(PotionEffectType.SLOWNESS, 100, 2));
             }
         });
 

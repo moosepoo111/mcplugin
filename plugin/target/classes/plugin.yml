@@ -1,6 +1,6 @@
 name: LegendaryWeapons
 version: 1.0
-main: your.package.LegendaryWeaponsPlugin
+main: me.ogsharpness.plugin.LegendaryWeaponsPlugin
 api-version: 1.20
 
 commands:
