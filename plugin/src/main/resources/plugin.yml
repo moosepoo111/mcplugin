@@ -1,0 +1,8 @@
+name: LegendaryWeapons
+version: 1.0
+main: your.package.LegendaryWeaponsPlugin
+api-version: 1.20
+
+commands:
+  giveweapon:
+    description: Give a legendary weapon
