@@ -1,0 +1,8 @@
+name: MythicalWeapons
+version: 1.0
+main: MythicalWeapons
+api-version: 1.21
+
+commands:
+  giveweapon:
+    description: Gives a mythical weapon
